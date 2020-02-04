@@ -8,6 +8,6 @@ class EmailParser
   end
 
   def parse
-    @email_addresses.split
+    @email_addresses.gsub("\\s", "", x)
   end
 end
