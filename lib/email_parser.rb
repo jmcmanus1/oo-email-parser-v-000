@@ -5,10 +5,12 @@ class EmailParser
 
   def initialize(email_addresses)
     @email_addresses = email_addresses
-    @email_addresses.parse 
+    @email_addresses.parse
   end
 
   def parse
+    @email_addresses
+    binding.pry
   end
 
 end
