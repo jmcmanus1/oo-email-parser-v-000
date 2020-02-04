@@ -8,6 +8,9 @@ class EmailParser
   end
 
   def parse
-    @email_addresses.gsub("\\s", "", x)
+    email_addresses.split.collect do |address|
+      address.split(",")
+    end
+    .flatten.uniq
   end
 end
