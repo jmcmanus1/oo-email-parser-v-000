@@ -6,6 +6,7 @@ class EmailParser
   def initialize(email_addresses)
     @email_addresses = email_addresses
     parsed_emails = email_addresses.parse
+    binding.pry
   end
 
   def parse(email_addresses)
