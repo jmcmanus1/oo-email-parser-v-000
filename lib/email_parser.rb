@@ -10,5 +10,4 @@ class EmailParser
   def parse
     @email_addresses.split
   end
-
 end
