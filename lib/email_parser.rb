@@ -8,9 +8,7 @@ class EmailParser
   end
 
   def parse(email_addresses)
-    parsed_email_addresses = email_addresses.split 
+    parsed_email_addresses = email_addresses.split
   end
 
 end
-
-"avi@test.com, arel@test.com test@avi.com"
