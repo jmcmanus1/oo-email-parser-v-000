@@ -8,7 +8,7 @@ class EmailParser
   end
 
   def parse(email_addresses)
-    @email_addresses = email_addresses
+    parsed_email_addresses = email_addresses.split 
   end
 
 end
