@@ -14,3 +14,5 @@ class EmailParser
     .flatten.uniq
   end
 end
+
+binding.pry
